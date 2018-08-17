@@ -5,3 +5,5 @@ To run these example images, follow the instructions at the [README.md file](htt
 
 ## example 1 - python3
 Add python3. Note that python3 is already installed in the Cocalc Docker image and can be used from the command line in a .term, but it is not available to Jupyter notebooks or Sage worksheets. The python3 kernel is needed; pip3 is added as nice-to-have.
+
+Command `rsync` is also added to enable distributing handouts from a .course.

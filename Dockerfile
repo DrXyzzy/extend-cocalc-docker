@@ -12,7 +12,8 @@ RUN \
      apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y \
        python3-ipykernel \
-       python3-pip
+       python3-pip \
+       rsync
 
 # copy config for python3 kernel
 COPY kernels /usr/local/share/jupyter/kernels
